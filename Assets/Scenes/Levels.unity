@@ -1280,7 +1280,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.4383667}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1332,7 +1332,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000009a71e0be000000000000803f000000000000000000000000000000bf000000009a71e03e000000000000803f00000000000000000000803f0000003f000000009a71e0be000000000000803f000000000000803f000000000000003f000000009a71e03e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -2240,11 +2240,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509423463}
   m_Mesh: {fileID: 4300084, guid: 7e413c961904bbc4ba6211e78b251ed8, type: 3}
---- !u!4 &574769451 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24,
-    type: 2}
-  m_PrefabInternal: {fileID: 691853289}
 --- !u!1 &613701515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,7 +2271,7 @@ Transform:
   - {fileID: 265775251}
   - {fileID: 32466132}
   m_Father: {fileID: 1012995273}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &647079828
 GameObject:
@@ -2698,48 +2693,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673115387}
   m_Mesh: {fileID: 4300096, guid: 7e413c961904bbc4ba6211e78b251ed8, type: 3}
---- !u!1001 &691853289
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1012995273}
-    m_Modifications:
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.17676868
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 5.0242954e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 5.0242958e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-      propertyPath: m_RootOrder
-      value: 43
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &719934389 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
@@ -4071,7 +4024,6 @@ Transform:
   - {fileID: 775439844}
   - {fileID: 998125986}
   - {fileID: 1384981232}
-  - {fileID: 574769451}
   - {fileID: 613701516}
   m_Father: {fileID: 1693029966}
   m_RootOrder: 0
@@ -6565,7 +6517,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SamrtGurlzLogo-target-colorMaterial
+  m_Name: Smartgurlz_football_targetMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
