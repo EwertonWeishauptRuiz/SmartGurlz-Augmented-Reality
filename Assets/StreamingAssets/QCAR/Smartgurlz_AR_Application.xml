@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Ar-Can-7x7-Football" size="7.000000 7.000000" />
+    <ImageTarget name="Ar-Can-7x7-Party" size="7.000000 7.000000" />
+    <ImageTarget name="SamrtGurlzLogo-target-color" size="10.000000 10.000000" />
+    <ImageTarget name="Smartgurlz_football_target" size="10.000000 8.767334" />
+  </Tracking>
+</QCARConfig>
