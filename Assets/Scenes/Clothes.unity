@@ -401,7 +401,7 @@ Prefab:
       objectReference: {fileID: 1835441867}
     - target: {fileID: 1181431251029208, guid: dd2a55378d3d30c4ab4d1c08f2716943, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd2a55378d3d30c4ab4d1c08f2716943, type: 2}
@@ -661,7 +661,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.49706745}
   m_Shapes:
     vertices: []
     shapes: []
@@ -713,7 +713,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000a07ffebe00000000ffff7f3f000000000000000000000000000000bf00000000a07ffe3e00000000ffff7f3f00000000000000000000803f0000003f00000000a07ffebe00000000ffff7f3f000000000000803f000000000000003f00000000a07ffe3e00000000ffff7f3f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -981,7 +981,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
-      value: Ar-Can-7x7-Football
+      value: jun-HQSTyle
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mDataSetPath
@@ -989,23 +989,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 7
+      value: 9.941349
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1021,7 +1021,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mAspectRatio
-      value: 1
+      value: 0.9941349
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mExtendedTracking
@@ -1397,15 +1397,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.22
+      value: -0.85400003
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.58
+      value: 1.1060001
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.59
+      value: 0.413
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1429,15 +1429,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.07233363
+      value: 0.05063354
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.07233366
+      value: 0.050633565
       objectReference: {fileID: 0}
     - target: {fileID: 4088297544602740, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.07233366
+      value: 0.050633565
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d94e0263017ef542af3b0fe36ed77b9, type: 2}
@@ -1931,7 +1931,7 @@ Prefab:
       objectReference: {fileID: 1835441867}
     - target: {fileID: 1177899507205064, guid: aee320d686520b947b2cb0ec416263df, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aee320d686520b947b2cb0ec416263df, type: 2}
@@ -3030,7 +3030,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
-      value: Ar-Can-7x7-Party
+      value: jen-HQSTyle
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mDataSetPath
@@ -3038,23 +3038,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 7
+      value: 9.941349
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3070,7 +3070,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mAspectRatio
-      value: 1
+      value: 0.9941349
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mExtendedTracking
@@ -3696,7 +3696,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Ar-Can-7x7-PartyMaterial
+  m_Name: jun-HQSTyleMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
