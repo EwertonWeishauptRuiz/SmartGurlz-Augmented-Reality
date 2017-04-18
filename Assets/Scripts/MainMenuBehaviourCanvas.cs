@@ -11,12 +11,14 @@ public class MainMenuBehaviourCanvas : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Screen.orientation == ScreenOrientation.Landscape) {
-            Debug.LogError("Landscape");
+        if (Screen.orientation == ScreenOrientation.Landscape ||
+            Screen.orientation == ScreenOrientation.LandscapeLeft ||
+            Screen.orientation == ScreenOrientation.LandscapeRight) {
             canvasLanscape.SetActive(true);
             canvasPortrait.SetActive(false);
         }
-        if (Screen.orientation == ScreenOrientation.Portrait) {
+        if (Screen.orientation == ScreenOrientation.Portrait || 
+            Screen.orientation == ScreenOrientation.PortraitUpsideDown) {
             canvasLanscape.SetActive(false);
             canvasPortrait.SetActive(true);
         }

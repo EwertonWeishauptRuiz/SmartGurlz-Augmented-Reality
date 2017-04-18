@@ -10,13 +10,16 @@ public class MainMenuReturn : MonoBehaviour {
     public Text text;
 
     void Update() {
-        if (Screen.orientation == ScreenOrientation.Landscape) {
+        if (Screen.orientation == ScreenOrientation.Landscape ||
+            Screen.orientation == ScreenOrientation.LandscapeLeft ||
+            Screen.orientation == ScreenOrientation.LandscapeRight) {
             Debug.LogError("Landscape");
             text.text = ("Landscape");
             canvasLanscape.SetActive(true);
             canvasPortrait.SetActive(false);
         }
-        if (Screen.orientation == ScreenOrientation.Portrait) {
+        if (Screen.orientation == ScreenOrientation.Portrait || 
+            Screen.orientation == ScreenOrientation.PortraitUpsideDown) {
             text.text = ("portrait");
             canvasLanscape.SetActive(false);
             canvasPortrait.SetActive(true);
