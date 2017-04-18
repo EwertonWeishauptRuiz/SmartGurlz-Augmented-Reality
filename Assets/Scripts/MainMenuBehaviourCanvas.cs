@@ -30,4 +30,8 @@ public class MainMenuBehaviourCanvas : MonoBehaviour {
         SceneManager.LoadScene("Clothes");
     }
 
+    public void GoToBirds() {
+        SceneManager.LoadScene("LevelsBird");
+    }
+
 }

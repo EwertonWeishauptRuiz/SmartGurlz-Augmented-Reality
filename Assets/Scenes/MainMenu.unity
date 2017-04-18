@@ -198,35 +198,6 @@ Prefab:
       propertyPath: canvasLanscape
       value: 
       objectReference: {fileID: 1604308608}
-    - target: {fileID: 1671983496121686, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114709938552239908, guid: ec9c7e85e274a4e4db757973b1a8da05,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToLevels
-      objectReference: {fileID: 0}
-    - target: {fileID: 1687019692444204, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
-      propertyPath: m_Name
-      value: ButtonClothes
-      objectReference: {fileID: 0}
-    - target: {fileID: 114394392932886980, guid: ec9c7e85e274a4e4db757973b1a8da05,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToClothes
-      objectReference: {fileID: 0}
-    - target: {fileID: 114226222924437416, guid: ec9c7e85e274a4e4db757973b1a8da05,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Augmented Reality
-
-        Clothing Package
-
-        Development Build
-
-        0.5'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
   m_IsPrefabParent: 0
@@ -349,6 +320,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 633984108}
+    - target: {fileID: 114875113828058192, guid: 9157ade025613a340bb5db723e604ab1,
+        type: 2}
+      propertyPath: canvasPortrait
+      value: 
+      objectReference: {fileID: 524248644}
     - target: {fileID: 114130352644836738, guid: 9157ade025613a340bb5db723e604ab1,
         type: 2}
       propertyPath: m_TargetGraphic
@@ -359,54 +335,19 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 633984108}
-    - target: {fileID: 114875113828058192, guid: 9157ade025613a340bb5db723e604ab1,
+    - target: {fileID: 114919049173107426, guid: 9157ade025613a340bb5db723e604ab1,
         type: 2}
-      propertyPath: canvasPortrait
+      propertyPath: m_TargetGraphic
       value: 
-      objectReference: {fileID: 524248644}
-    - target: {fileID: 114999734283905334, guid: 9157ade025613a340bb5db723e604ab1,
+      objectReference: {fileID: 633984109}
+    - target: {fileID: 114919049173107426, guid: 9157ade025613a340bb5db723e604ab1,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToLevels
-      objectReference: {fileID: 0}
-    - target: {fileID: 224967492398105908, guid: 9157ade025613a340bb5db723e604ab1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 224953100169689018, guid: 9157ade025613a340bb5db723e604ab1,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 218
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 633984108}
     - target: {fileID: 1940101977432328, guid: 9157ade025613a340bb5db723e604ab1, type: 2}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114448076698867432, guid: 9157ade025613a340bb5db723e604ab1,
-        type: 2}
-      propertyPath: m_Text
-      value: Clothing Packages
-      objectReference: {fileID: 0}
-    - target: {fileID: 1112354428123580, guid: 9157ade025613a340bb5db723e604ab1, type: 2}
-      propertyPath: m_Name
-      value: ButtonClothes
-      objectReference: {fileID: 0}
-    - target: {fileID: 114130352644836738, guid: 9157ade025613a340bb5db723e604ab1,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoToClothes
-      objectReference: {fileID: 0}
-    - target: {fileID: 114862651420216176, guid: 9157ade025613a340bb5db723e604ab1,
-        type: 2}
-      propertyPath: m_Text
-      value: 'Augmented Reality
-
-        Clothing Package
-
-        Development Build
-
-        0.5'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9157ade025613a340bb5db723e604ab1, type: 2}
