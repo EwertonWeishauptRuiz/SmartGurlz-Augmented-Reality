@@ -1126,7 +1126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &174785088
 GameObject:
@@ -2218,7 +2218,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.4383667}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -2270,7 +2270,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf000000009a71e0be000000000000803f000000000000000000000000000000bf000000009a71e03e000000000000803f00000000000000000000803f0000003f000000009a71e0be000000000000803f000000000000803f000000000000003f000000009a71e03e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -2666,7 +2666,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3300000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Mesh
@@ -2760,6 +2760,7 @@ MonoBehaviour:
   directionsTextPortrait: {fileID: 947020786}
   directionsTextLandscape: {fileID: 924563397}
   partyAssets: {fileID: 1976877588}
+  vibrateTime: 0
 --- !u!4 &407331107 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -2874,8 +2875,8 @@ Light:
   serializedVersion: 7
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.54
-  m_Range: 100
+  m_Intensity: 1.25
+  m_Range: 200
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -3005,7 +3006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalScale.x
@@ -3678,8 +3679,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613701515}
   m_LocalRotation: {x: 0.5004113, y: -0, z: -0, w: 0.86578786}
-  m_LocalPosition: {x: -60.07737, y: 146.66249, z: -66.55153}
-  m_LocalScale: {x: 0.9283214, y: 0.928321, z: 0.928321}
+  m_LocalPosition: {x: -1.615958, y: 225.5778, z: -70.0203}
+  m_LocalScale: {x: 1.6764125, y: 1.676412, z: 1.676412}
   m_Children:
   - {fileID: 1205331518}
   - {fileID: 722961506}
@@ -3688,8 +3689,8 @@ Transform:
   - {fileID: 32466132}
   - {fileID: 2006262004}
   - {fileID: 1976578279}
-  m_Father: {fileID: 1115080372}
-  m_RootOrder: 5
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625139277
 GameObject:
@@ -6746,7 +6747,7 @@ Transform:
   - {fileID: 1244451948}
   - {fileID: 670071009}
   m_Father: {fileID: 1115080372}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1022220971
 Prefab:
@@ -7186,8 +7187,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115080371}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.42, y: -3.16, z: 5.36}
+  m_LocalRotation: {x: 0.018548358, y: -0, z: -0, w: 0.999828}
+  m_LocalPosition: {x: 11.419999, y: -3.2117317, z: 5.2085395}
   m_LocalScale: {x: 0.19296236, y: 0.19296233, z: 0.19296233}
   m_Children:
   - {fileID: 1959635035}
@@ -7195,13 +7196,12 @@ Transform:
   - {fileID: 775439844}
   - {fileID: 998125986}
   - {fileID: 1384981232}
-  - {fileID: 613701516}
   - {fileID: 1012995273}
   - {fileID: 1619095880}
   - {fileID: 2060328860}
   m_Father: {fileID: 1693029966}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.1260002, y: 0, z: 0}
 --- !u!1 &1132425286
 GameObject:
   m_ObjectHideFlags: 0
@@ -9391,7 +9391,7 @@ Transform:
   - {fileID: 1943393865}
   - {fileID: 90266747}
   m_Father: {fileID: 1115080372}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
 --- !u!95 &1619095881
 Animator:
@@ -9658,7 +9658,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -9680,7 +9680,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -9.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9704,7 +9704,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3300000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Mesh
@@ -11163,6 +11163,7 @@ MonoBehaviour:
   directionsTextPortrait: {fileID: 947020786}
   directionsTextLandscape: {fileID: 924563397}
   footballAssets: {fileID: 407331105}
+  vibrateTime: 0
 --- !u!1 &1977703853
 GameObject:
   m_ObjectHideFlags: 0
@@ -11513,7 +11514,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Smartgurlz_football_targetMaterial
+  m_Name: SamrtGurlzLogo-target-colorMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5

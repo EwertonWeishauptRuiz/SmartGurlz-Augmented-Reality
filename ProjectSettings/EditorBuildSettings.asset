@@ -8,8 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
   - enabled: 1
-    path: Assets/Scenes/Clothes.unity
-  - enabled: 1
     path: Assets/Scenes/Levels.unity
+  - enabled: 1
+    path: Assets/Scenes/Clothes.unity
   - enabled: 1
     path: Assets/Scenes/LevelsBird.unity
