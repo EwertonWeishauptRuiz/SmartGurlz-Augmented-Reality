@@ -6,20 +6,50 @@ public class BallBehaviour : MonoBehaviour {
     
     float speed = 32;
     Rigidbody rbd;
-   
+
+    float timerToDetroy = 25f;
+    float launchBallTimer = 2f;
+
+    public bool alreadyLaunched;
+
     void Start () {
         rbd = GetComponent<Rigidbody>();
+        alreadyLaunched = false;
 	}
 	
 	void FixedUpdate () {
-        transform.Rotate((Random.Range(200, 450) * Time.deltaTime), 
-                         (Random.Range(450, 650) * Time.deltaTime), 
-                         (Random.Range (250, 650) * Time.deltaTime));       
+        BallRotation();
 
-        rbd.velocity = new Vector2(speed * Random.Range(0.7f, 1.5f), rbd.velocity.y);
+
+        if (launchBallTimer <= 0 && !alreadyLaunched) {            
+            BallLaunch();
+            alreadyLaunched = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            BallLaunch();
+        }
+        if (timerToDetroy <= 0) {
+            Destroy(gameObject);
+        }
+
+        timerToDetroy -= Time.deltaTime;
+        launchBallTimer -= Time.deltaTime;
     }
 
     void OnTriggerEnter() {
         Destroy(gameObject);
+    }
+
+    void BallLaunch() {
+        rbd.velocity = new Vector3(Random.Range(9, 20),
+                           Random.Range(5, 15),
+                           Random.Range(-5, 5));
+    }
+
+    void BallRotation() {
+        transform.Rotate((Random.Range(20, 45) * Time.deltaTime),
+                         (Random.Range(50, 70) * Time.deltaTime),
+                         (Random.Range(20, 80) * Time.deltaTime));
     }
 }
