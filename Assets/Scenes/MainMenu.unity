@@ -198,6 +198,14 @@ Prefab:
       propertyPath: canvasLanscape
       value: 
       objectReference: {fileID: 1604308608}
+    - target: {fileID: 1687019692444204, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671983496121686, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec9c7e85e274a4e4db757973b1a8da05, type: 2}
   m_IsPrefabParent: 0
@@ -347,6 +355,15 @@ Prefab:
       objectReference: {fileID: 633984108}
     - target: {fileID: 1940101977432328, guid: 9157ade025613a340bb5db723e604ab1, type: 2}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112354428123580, guid: 9157ade025613a340bb5db723e604ab1, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114130352644836738, guid: 9157ade025613a340bb5db723e604ab1,
+        type: 2}
+      propertyPath: m_Colors.m_ColorMultiplier
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
