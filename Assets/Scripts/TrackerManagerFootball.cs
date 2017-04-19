@@ -72,7 +72,7 @@ public class TrackerManagerFootball : MonoBehaviour, ITrackableEventHandler {
         }
         //When tracker is lost.
         if (!trackFound) {
-            partyAssets.SetActive(true);
+            partyAssets.SetActive(true); //Bring back assets, so it can be show again
             timerImageFound = 4f;
             vibrateTime = 0.5f;
             footballAssets.SetActive(false);

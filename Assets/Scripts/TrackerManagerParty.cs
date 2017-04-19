@@ -23,9 +23,7 @@ public class TrackerManagerParty : MonoBehaviour, ITrackableEventHandler {
     public GameObject directionsTextLandscape;
 
     public GameObject footballAssets;
-
     public float vibrateTime;
-
     void Start() {
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour) {
@@ -34,9 +32,9 @@ public class TrackerManagerParty : MonoBehaviour, ITrackableEventHandler {
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update () {
         if (trackFound) {
-            partyAssets.SetActive(false);
+            footballAssets.SetActive(false);
             timerImageFound -= Time.deltaTime;
             vibrateTime -= Time.deltaTime;
             if(vibrateTime >= 0) {
@@ -54,7 +52,7 @@ public class TrackerManagerParty : MonoBehaviour, ITrackableEventHandler {
                     directionsTextPortrait.SetActive(true);
                 }
             }
-            //When Image Appears
+            //When AR Appears
             if (timerImageFound <= 0) {
                 partyAssets.SetActive(true);
                 if (Screen.orientation == ScreenOrientation.Landscape ||
@@ -70,7 +68,8 @@ public class TrackerManagerParty : MonoBehaviour, ITrackableEventHandler {
         }
         //When tracker is lost.
         if (!trackFound) {
-            partyAssets.SetActive(false);
+            footballAssets.SetActive(true); // Bring back hidden AR
+            partyAssets.SetActive(false); // Disapears with the current AR
             timerImageFound = 4f;
             vibrateTime = 0.5f;
             footballAssets.SetActive(true);

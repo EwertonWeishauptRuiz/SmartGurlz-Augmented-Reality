@@ -9,9 +9,8 @@ public class BallSpawn : MonoBehaviour {
 
     public GameObject[] ballPrefab;
     public GameObject[] ballClone;
-    // Update is called once per frame
-
     public float spawnTimer = 3;
+
 	void Update () {
         if(spawnTimer <= 0) {
             SpawnBall();

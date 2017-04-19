@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BallonKill : MonoBehaviour {
+public class BallonBehaviour : MonoBehaviour {
 	void Update () {
         Physics.gravity = new Vector3(0, 10.0f, 0);
     }
