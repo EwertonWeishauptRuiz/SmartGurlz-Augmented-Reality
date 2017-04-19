@@ -3,24 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BallBehaviour : MonoBehaviour {
+    
+    float speed = 32;
+    Rigidbody rbd;
+   
+    void Start () {
+        rbd = GetComponent<Rigidbody>();
+	}
+	
+	void FixedUpdate () {
+        transform.Rotate((Random.Range(200, 450) * Time.deltaTime), 
+                         (Random.Range(450, 650) * Time.deltaTime), 
+                         (Random.Range (250, 650) * Time.deltaTime));       
 
-    public Transform ballStart;
-    public Transform ballEnd;
-
-    public GameObject[] ballPrefab;
-    public GameObject[] ballClone;
-    // Update is called once per frame
-
-    public float spawnTimer = 3;
-	void Update () {
-        if(spawnTimer <= 0) {
-            SpawnBall();
-            spawnTimer = 3;
-        }
-        spawnTimer -= Time.deltaTime;
-    }	
-    void SpawnBall() {
-        ballClone[0] = Instantiate(ballPrefab[0], ballStart.transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;       
+        rbd.velocity = new Vector2(speed * Random.Range(0.7f, 1.5f), rbd.velocity.y);
     }
 
+    void OnTriggerEnter() {
+        Destroy(gameObject);
+    }
 }
