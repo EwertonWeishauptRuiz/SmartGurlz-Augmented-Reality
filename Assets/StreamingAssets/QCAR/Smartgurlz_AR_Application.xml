@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="ResizedImageTargetJunFIver" size="10.000000 10.000000" />
     <ImageTarget name="jun-HQSTyle" size="10.000000 9.941349" />
     <ImageTarget name="jen-HQSTyle" size="10.000000 9.941349" />
     <ImageTarget name="Ar-Can-7x7-Football" size="7.000000 7.000000" />

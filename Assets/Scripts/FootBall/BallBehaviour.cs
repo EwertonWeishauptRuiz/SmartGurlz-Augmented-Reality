@@ -19,15 +19,9 @@ public class BallBehaviour : MonoBehaviour {
 	
 	void FixedUpdate () {
         BallRotation();
-
-
         if (launchBallTimer <= 0 && !alreadyLaunched) {            
             BallLaunch();
             alreadyLaunched = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            BallLaunch();
         }
         if (timerToDetroy <= 0) {
             Destroy(gameObject);
