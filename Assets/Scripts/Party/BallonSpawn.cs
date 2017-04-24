@@ -10,8 +10,9 @@ public class BallonSpawn : MonoBehaviour {
     public float respawnTimer;
     public float respawnTimer2;
 
-    void Start() {
-
+    void Awake() {
+        SpawnBallon();
+        SpawnBallon2();
     }
 
 
