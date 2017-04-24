@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdcd0b2dd23ed694096443bca804c6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footballAssets: {fileID: 1009953247}
+  footballAssets: {fileID: 0}
   trackAreaLandscape: {fileID: 1834841842}
   trackAreaPortrait: {fileID: 380326385}
   trackAreaImageLandscape: {fileID: 1834841844}
@@ -1032,11 +1032,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1177899507205064, guid: aee320d686520b947b2cb0ec416263df,
     type: 2}
   m_PrefabInternal: {fileID: 905677998}
---- !u!1 &1009953247 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1237499782153264, guid: b1760b06d21f619459aa49a3a4fe067c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1492707352}
 --- !u!4 &1009953249 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4394997996540260, guid: b1760b06d21f619459aa49a3a4fe067c,
@@ -1506,7 +1501,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: jun-HQSTyleMaterial
+  m_Name: jen-HQSTyleMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5

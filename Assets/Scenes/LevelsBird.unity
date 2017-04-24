@@ -440,7 +440,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.4383667}
+      m_Extent: {x: 0.5, y: 0, z: 0.49706745}
   m_Shapes:
     vertices: []
     shapes: []
@@ -492,7 +492,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf000000009a71e0be000000000000803f000000000000000000000000000000bf000000009a71e03e000000000000803f00000000000000000000803f0000003f000000009a71e0be000000000000803f000000000000803f000000000000003f000000009a71e03e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000a07ffebe00000000ffff7f3f000000000000000000000000000000bf00000000a07ffe3e00000000ffff7f3f00000000000000000000803f0000003f00000000a07ffebe00000000ffff7f3f000000000000803f000000000000003f00000000a07ffe3e00000000ffff7f3f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -812,7 +812,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 22.3
+      value: 25.7
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1028,7 +1028,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 59017fd585531004a85f5ad24e8c1c5d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.7
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 59017fd585531004a85f5ad24e8c1c5d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1225,7 +1225,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 16.1
+      value: 12.7
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1426,7 +1426,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.8
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1580,8 +1580,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115080371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5, y: -3.16, z: -1.8}
-  m_LocalScale: {x: 0.19296236, y: 0.19296233, z: 0.19296233}
+  m_LocalPosition: {x: 3.953, y: -1.2728, z: -1.079}
+  m_LocalScale: {x: 0.10465605, y: 0.10465602, z: 0.10465602}
   m_Children:
   - {fileID: 1959635035}
   - {fileID: 1332502787}
@@ -1681,7 +1681,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.9
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1800,7 +1800,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 12.1
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1923,7 +1923,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 4616a65008e531b47be97efe74949fbe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.9
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4616a65008e531b47be97efe74949fbe, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2135,7 +2135,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
-      value: SamrtGurlzLogo-target-color
+      value: jen-HQSTyle
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mDataSetPath
@@ -2147,19 +2147,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 10
+      value: 9.941349
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
-      value: 9.358579
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.y
-      value: 9.358579
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.z
-      value: 9.358579
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2175,7 +2175,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mAspectRatio
-      value: 1
+      value: 0.9941349
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mExtendedTracking
@@ -2359,7 +2359,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 4.2
+      value: 10.3
       objectReference: {fileID: 0}
     - target: {fileID: 4223822450582456, guid: 0f6c73beee776b6489d0fb094b67cb24, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2501,7 +2501,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SamrtGurlzLogo-target-colorMaterial
+  m_Name: jen-HQSTyleMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
